@@ -1,0 +1,55 @@
+:root {
+  font-family: 'Sora', 'Manrope', 'Nunito Sans', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-1: #f6f8fb;
+  --bg-2: #edf2ff;
+  --ink-1: #111827;
+  --ink-2: #344054;
+  --ink-3: #667085;
+
+  --card: #ffffff;
+  --card-soft: #f8fafc;
+  --line: #e4e7ec;
+  --line-strong: #d0d5dd;
+
+  --brand: #1d4ed8;
+  --brand-strong: #1e3a8a;
+  --brand-soft: #dbeafe;
+
+  --danger: #b42318;
+  --danger-soft: #fee4e2;
+  --success: #067647;
+  --success-soft: #ecfdf3;
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --shadow-sm: 0 8px 20px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 20px 48px rgba(16, 24, 40, 0.1);
+  --shadow-lg: 0 30px 80px rgba(16, 24, 40, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ink-1);
+  background:
+    radial-gradient(circle at 10% 0%, #dbeafe 0%, transparent 40%),
+    radial-gradient(circle at 90% 20%, #e0e7ff 0%, transparent 35%),
+    linear-gradient(165deg, var(--bg-2) 0%, var(--bg-1) 55%, #f8fafc 100%);
+}
